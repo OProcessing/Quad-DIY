@@ -39,7 +39,7 @@ main\
 IMU\
 Alt
 
-## challenging
+## Error Handle
 자이로 데이터 전처리\
 대기압 부정확\
 보드고장\
