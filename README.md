@@ -1,21 +1,17 @@
 # Quadrotor DIY project
-졸업 프로젝트, 쿼드로터 1인 제작
+쿼드로터 1인 제작
 
 ## Abstract
 
 ## Project Infomation
-기간 2023년 8월 ~ 2023년 12월\
-맨땅에 헤딩하며 쿼드로터 DIY하기
+2023년 8월 ~ 2023년 12월\
 
 ## Project Participant
 [한영철](https://github.com/OProcessing)
 
-## 수행목록
-
-## stack
-STM32 IDE, STM32 Cube, STM32 monitoring, Git
-
-## System configuration
+## d
+Lan : C, C++\
+Tool : IAREWARM, STM32IDE, STM32Cube, ST-Link
 
 ## Hardware configuration
 ||Processor|Actuator|Controller|Sensor|Sensor|
@@ -40,15 +36,14 @@ IMU\
 Alt
 
 ## Error Handle
-자이로 데이터 전처리\
-대기압 부정확\
-보드고장\
-납땜불량\
-모터출력\
-전원출력
+IMU Sensor preprocessing\
+Altitude sensor accuracy issue\
+Embedded board malfunction\
+Soldering issue\
+Motor power
 
-## Result
+## Results
 
-## Extend
+## Limit
 
 ## Reference
