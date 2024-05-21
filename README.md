@@ -1,16 +1,13 @@
-## Quadrotor DIY project
+## Quadrotor DIY project 
 쿼드로터 1인 제작
-
 ### Abstract
-
 ### Project Infomation
-2023년 8월 ~ 2023년 12월\
-
+2023년 8월 ~ 2023년 12월
 ### Project Participant
 [한영철](https://github.com/OProcessing)
 
 ### d
-Lan : C, C++\
+Lang : C, C++\
 Tool : IAREWARM, STM32IDE, STM32Cube, ST-Link
 
 ### Hardware configuration
@@ -19,33 +16,26 @@ Tool : IAREWARM, STM32IDE, STM32Cube, ST-Link
 |Name|Embedded Board|BLDC motor|ESC|Gyro Sensor|Alt sensor|
 |Model|Nucloe-F439ZI|dys G-Power Series|30A ESC|GY521|BMP180|
 |Specification|cortex-m4, 168MHz|NL 360000rpm|continuos 30A|acc, gyro 6-DOF|altitude|
-
 ### PinOut
 |ESC-forward|ESC-backward|ESC-left|ESC-right|BMP180|BMP180|GY-521|GY-521|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |PWM|PWM|PWM|PWM|SCL|SDA|SCL|SDA|
 |PA0|PB3|PB10|PA3|PB9|PB6|PF1|PF0|
 |TIM2_CH2|TIM2_CH1|TIM2_CH3|TIM2_CH4|-|-|-|-|
-
 ### Software configuration
-
 ### Source
 initial setup\
 main\
 IMU\
 Alt
-
 ### Error Handle
 IMU Sensor preprocessing\
 Altitude sensor accuracy issue\
 Embedded board malfunction\
 Soldering issue\
 Motor power
-
 ### Results
-
 ### Limit
-
 ### Reference
 [1] Eunhye Seok (2021.02.20.). STM32_HAL_MPU6050_lib. https://github.com/mokhwasomssi/stm32_hal_mpu6050.
 [2] Fanni, M., & Khalifa, A. (2017). A new 6-DOF quadrotor manipulation system: Design, kinematics, dynamics, and control. IEEE/ASME Transactions On Mechatronics, 22(3), 1315-1326. 
