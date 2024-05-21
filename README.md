@@ -37,7 +37,7 @@ Motor power
 ### Results
 ### Limit
 ### Reference
-[1] Eunhye Seok (2021.02.20.). STM32_HAL_MPU6050_lib. https://github.com/mokhwasomssi/stm32_hal_mpu6050. \
+[1] Eunhye Seok (2021.02.20.). STM32_HAL_MPU6050_lib. https://github.com/mokhwasomssi. \
 [2] Fanni, M., & Khalifa, A. (2017). A new 6-DOF quadrotor manipulation system: Design, kinematics, dynamics, and control. IEEE/ASME Transactions On Mechatronics, 22(3), 1315-1326.\
 [3] 김진석, 임영도, 허재영. (2012). 센서 결합을 통한 쿼드콥터의 자세제어 시뮬레이터 구현. 한국정보기술학회논문지, 10(7), 1-11.\
 [4] 류성진. (2016). 드론의 상용화(常用化)에 따른 안전과 법적 문제. 법제연구, 51, 241-282.\
