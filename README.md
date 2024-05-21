@@ -1,14 +1,14 @@
 ## Quadrotor DIY project 
 쿼드로터 1인 제작
 ### Abstract
+
 ### Project Infomation
 2023년 8월 ~ 2023년 12월
-### Project Participant
-[한영철](https://github.com/OProcessing)
+[YC Han](https://github.com/OProcessing)
 
 ### d
-Lang : C, C++\
-Tool : IAREWARM, STM32IDE, STM32Cube, ST-Link
+Technic : C, C++, PID, ~~EKF~~, Dynamics, Embedded\
+Tool : IAREWARM, STM32IDE, STM32Cube, ST-Link, Matlab
 
 ### Hardware configuration
 ||Processor|Actuator|Controller|Sensor|Sensor|
