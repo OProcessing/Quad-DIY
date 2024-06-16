@@ -3,12 +3,16 @@
 ### Abstract
 
 ### Project Infomation
-2023년 8월 ~ 2023년 12월
+2023년 8월 ~ 2023년 12월\
 [YC Han](https://github.com/OProcessing)
 
 ### d
-Technic : C, C++, PID, ~~EKF~~, Dynamics, Embedded\
-Tool : IAREWARM, STM32IDE, STM32Cube, ST-Link, Matlab
+|||
+|:---:|:---|
+| Technic | Dynamics, Circuit, Control, Robotics, Embedded, ~~EKF~~ |
+| Language | C/C++ |
+| Software | IAREWARM, VSCode, STM32CubeIDE, STM32CubeMx, ST-Link, Matlab |
+
 
 ### Hardware configuration
 ||Processor|Actuator|Controller|Sensor|Sensor|
