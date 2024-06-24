@@ -1,5 +1,5 @@
 ## Quadrotor DIY project 
-쿼드로터 1인 제작
+
 ### Abstract
 
 ### Project Infomation
