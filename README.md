@@ -6,7 +6,7 @@
 2023년 8월 ~ 2023년 12월\
 [YC Han](https://github.com/OProcessing)
 
-### d
+### stacks
 |||
 |:---:|:---|
 | Technic | Dynamics, Circuit, Control, Robotics, Embedded, ~~EKF~~ |
