@@ -3,7 +3,7 @@
 ### Abstract
 
 ### Project Infomation
-2023년 8월 ~ 2023년 12월\
+2023년 6월 ~ 2023년 12월\
 [YC Han](https://github.com/OProcessing)
 
 ### stacks
