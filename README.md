@@ -1,18 +1,13 @@
 ## Quadrotor DIY project 
-
-### Abstract
-
-### Project Infomation
-2023년 6월 ~ 2023년 12월\
-[YC Han](https://github.com/OProcessing)
+![drone_frontview](https://github.com/user-attachments/assets/d48bb2ab-f787-4ad7-bfd2-0e73390102b7)
+ARM 개발 보드를 활용한 6자유도 드론 자세 제어
 
 ### stacks
 |||
 |:---:|:---|
-| Technic | Dynamics, Circuit, Control, Robotics, Embedded, ~~EKF~~ |
+| Technic | Dynamics, Circuit, Control, Robotics, Embedded |
 | Language | C |
 | Software | IAREWARM, VSCode, STM32CubeIDE, STM32CubeMx, ST-Link, Matlab |
-
 
 ### Hardware configuration
 ||Processor|Actuator|Controller|Sensor|Sensor|
@@ -20,26 +15,14 @@
 |Name|Embedded Board|BLDC motor|ESC|Gyro Sensor|Alt sensor|
 |Model|Nucloe-F439ZI|dys G-Power Series|30A ESC|GY521|BMP180|
 |Specification|cortex-m4, 168MHz|NL 360000rpm|continuos 30A|acc, gyro 6-DOF|altitude|
+
 ### PinOut
 ||ESC-forward|ESC-backward|ESC-left|ESC-right|BMP180|BMP180|GY-521|GY-521|
 |:---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |Signal|PWM|PWM|PWM|PWM|SCL|SDA|SCL|SDA|
 |Pin|PA0|PB3|PB10|PA3|PB9|PB6|PF1|PF0|
 |Channel|TIM2_CH2|TIM2_CH1|TIM2_CH3|TIM2_CH4|-|-|-|-|
-### Software configuration
-### Source
-initial setup\
-main\
-IMU\
-Alt
-### Error Handle
-IMU Sensor preprocessing\
-Altitude sensor accuracy issue\
-Embedded board malfunction\
-Soldering issue\
-Motor power
-### Results
-### Limit
+
 ### Reference
 [1] Eunhye Seok (2021.02.20.). STM32_HAL_MPU6050_lib. https://github.com/mokhwasomssi. \
 [2] Fanni, M., & Khalifa, A. (2017). A new 6-DOF quadrotor manipulation system: Design, kinematics, dynamics, and control. IEEE/ASME Transactions On Mechatronics, 22(3), 1315-1326.\
