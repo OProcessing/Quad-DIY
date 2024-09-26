@@ -1,27 +1,25 @@
 ## Quadrotor DIY project 
 ![drone_frontview](https://github.com/user-attachments/assets/d48bb2ab-f787-4ad7-bfd2-0e73390102b7)
-ARM 개발 보드를 활용한 6자유도 드론 자세 제어
 
-### stacks
-|||
-|:---:|:---|
-| Technic | Dynamics, Circuit, Control, Robotics, Embedded |
-| Language | C |
-| Software | IAREWARM, VSCode, STM32CubeIDE, STM32CubeMx, ST-Link, Matlab |
+### Info
+Language : C\
+IAREWARM, VSCode, STM32CubeIDE, STM32CubeMx, ST-Link, Matlab
 
 ### Hardware configuration
-||Processor|Actuator|Controller|Sensor|Sensor|
-|-|:--:|:--:|:--:|:--:|:--:|
-|Name|Embedded Board|BLDC motor|ESC|Gyro Sensor|Alt sensor|
-|Model|Nucloe-F439ZI|dys G-Power Series|30A ESC|GY521|BMP180|
-|Specification|cortex-m4, 168MHz|NL 360000rpm|continuos 30A|acc, gyro 6-DOF|altitude|
+Frame : length 500mm\
+Board : Nucleo-F439Zi (ARM Cortex-M4) \
+BLDC motor : dys G-Power Series\
+ESC : 30A ESC\
+IMU sensor : MPU6050 GY521\
+Alt sensor : BMP180\
+Sample rate : Sensors 1kHz, ESC 40Hz
 
 ### PinOut
 ||ESC-forward|ESC-backward|ESC-left|ESC-right|BMP180|BMP180|GY-521|GY-521|
 |:---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |Signal|PWM|PWM|PWM|PWM|SCL|SDA|SCL|SDA|
 |Pin|PA0|PB3|PB10|PA3|PB9|PB6|PF1|PF0|
-|Channel|TIM2_CH2|TIM2_CH1|TIM2_CH3|TIM2_CH4|-|-|-|-|
+|Channel|TIM2_CH2|TIM2_CH1|TIM2_CH3|TIM2_CH4|I2C1|I2C1|I2C2|I2C2|
 
 ### Reference
 [1] Eunhye Seok (2021.02.20.). STM32_HAL_MPU6050_lib. https://github.com/mokhwasomssi. \
