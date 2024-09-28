@@ -3,7 +3,7 @@
 
 ### Info
 Language : C\
-IAREWARM, VSCode, STM32CubeIDE, STM32CubeMx, ST-Link, Matlab
+Program : IAREWARM, VSCode, STM32CubeIDE, STM32CubeMx, ST-Link, Matlab
 
 ### Hardware configuration
 Frame : length 500mm\
@@ -15,11 +15,9 @@ Alt sensor : BMP180\
 Sample rate : Sensors 1kHz, ESC 40Hz
 
 ### PinOut
-||ESC-forward|ESC-backward|ESC-left|ESC-right|BMP180|BMP180|GY-521|GY-521|
-|:---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Signal|PWM|PWM|PWM|PWM|SCL|SDA|SCL|SDA|
-|Pin|PA0|PB3|PB10|PA3|PB9|PB6|PF1|PF0|
-|Channel|TIM2_CH2|TIM2_CH1|TIM2_CH3|TIM2_CH4|I2C1|I2C1|I2C2|I2C2|
+ESC : PWM signal PA0(front), PB3(back), PB10(left), PA3(right)
+BMP180 : I2C SCL PB9, SDA PB6
+IMU : I2C SCL PF1, SDA PF0
 
 ### Reference
 [1] Eunhye Seok (2021.02.20.). STM32_HAL_MPU6050_lib. https://github.com/mokhwasomssi. \
